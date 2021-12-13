@@ -27,4 +27,4 @@ app.include_router(votes.router)
 
 @app.get("/")
 def root():
-    return {"message": "Hello world"}
+    return {"lxa-message": "https://fastapi-lxa.herokuapp.com/docs руу хандана уу."}
